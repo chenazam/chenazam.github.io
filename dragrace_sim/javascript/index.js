@@ -10943,7 +10943,7 @@ for (let i = 0; i < customLength; i++) {
 }
 allCustomQueens.splice(0, customLength);
 let allQueens = [
-    akashia, bebe, jade, ninaf, ongina, rebecca, shannel, tammie, victoria,
+    hunter, akashia, bebe, jade, ninaf, ongina, rebecca, shannel, tammie, victoria,
     jessica, jujubee, morgan, mystique, nicole, pandora, raven, sahara, shangela, sonique, tatianna, tyra,
     alexis, carmen, delta, india, manila, mariah, mimi, phoenix, raja, stacey, venus, yara,
     alisa, chad, dida, jiggly, kenya, leshauwn, latrice, madame, milan, phiphi, sharon, princess, willam,
