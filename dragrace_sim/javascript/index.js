@@ -10252,6 +10252,7 @@ class Queen {
 }
 //QUEENS:
 //SEASON 1: 
+let hunter = new Queen("Hunter", 11, 12, 13, 11, 12, 13, 11, "Hunter");
 let akashia = new Queen("Akashia", 3, 2, 7, 3, 2, 7, 11, "Akashia");
 let bebe = new Queen("BeBe Zahara Benet", 6, 7, 8, 12, 6, 10, 9, "BeBe");
 let jade = new Queen("Jade Sotomayor", 3, 3, 8, 7, 3, 7, 7, "Jade");
@@ -10261,7 +10262,7 @@ let rebecca = new Queen("Rebecca Glasscock", 3, 3, 6, 4, 2, 6, 5, "Rebecca");
 let shannel = new Queen("Shannel", 5, 5, 5, 9, 4, 11, 7, "Shannel");
 let tammie = new Queen("Tammie Brown", 6, 7, 5, 7, 6, 7, 6, "Tammie");
 let victoria = new Queen("Victoria 'Porkchop' Parker", 3, 6, 4, 3, 6, 5, 4, "Victoria");
-let us_season1 = [akashia, bebe, jade, ninaf, ongina, rebecca, shannel, tammie, victoria];
+let us_season1 = [akashia, bebe, jade, ninaf, ongina, rebecca, shannel, tammie, victoria, hunter];
 //SEASON 2:       acting, comedy, dance, design, improv, runway, lipsync
 let jessica = new Queen("Jessica Wild", 9, 8, 10, 11, 8, 9, 11, "Jessica");
 let jujubee = new Queen("Jujubee", 9, 11, 7, 8, 12, 6, 12, "Jujubee");
