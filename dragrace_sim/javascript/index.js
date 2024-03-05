@@ -10181,7 +10181,7 @@ class Queen {
         } else if (custom == true) {
             this.image = image;
         } else {
-            this.image = "image/queens/" + image + ".webp";
+            this.image = "image/queens/" + image + ".jpg";
         }
     }
     _calculateScores(min, max, stat = 0) {
