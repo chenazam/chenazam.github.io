@@ -1,3 +1,5 @@
+"use strict";
+
 const queryString = window.location.search;
 const abilityScores = new URLSearchParams(queryString);
 

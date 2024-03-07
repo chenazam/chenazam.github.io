@@ -2,50 +2,7 @@
 <html>
 <head>
     <title>Character Sheet</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        #grid {
-            display: grid;
-            grid-template-columns: 100px 100px 100px;
-            margin: auto;
-            row-gap: 15px;
-            column-gap: 10px;
-            width: 500px;
-        }
-        .ability {
-            border: 1px solid black;
-            text-align: center;
-            position: relative;
-            padding-bottom: 12px;
-            z-index: 1;
-        }
-        .abilityname {
-            font-size: 10px;
-            text-transform: uppercase;
-        }
-        .modifier {
-            background-color: grey;
-            font-size: 30px;
-        }
-        .score {
-            border: 1px solid black;
-            background-color: white;
-            border-radius: 100%;
-            width: 40%;
-            position: absolute;
-            left: 30px;
-            bottom: -10px;
-            z-index: 2;
-            font-size: 14px;
-        }
-        #returnbutton {
-            grid-column-start: 2;
-            grid-column-end: 3;
-        }
-    </style>
+    <link rel="stylesheet" href="styles/charactersheet.css">
 </head>
 <body>
     <div id="grid">
@@ -80,7 +37,7 @@
             <div class="score" id="chascore"></div>
         </div>
 
-        <div id="returnbutton"><a href="abilityscores.html"><button>Back to input</button></a></div>
+        <a href="abilityscores.html"><button name="back">Back</button></a>
     </div>
 
 <script src="abilityscores.js"></script>
